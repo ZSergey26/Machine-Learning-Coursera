@@ -27,7 +27,7 @@ sigma = zeros(1, size(X, 2));
 %       
 
 
-
+X_norm = (X - mean(X))/ std(X);
 
 
 
